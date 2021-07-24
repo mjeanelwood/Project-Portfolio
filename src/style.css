@@ -3,6 +3,10 @@ body {
   color: white;
   text-align: center;
 }
+h1 {
+  color: #d169a5;
+  font-size: 75px;
+}
 img {
   max-width: 500px;
 }
