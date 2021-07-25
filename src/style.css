@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: #d169a5;
+  color: var(--primary-color);
   font-size: 90px;
   padding-top: 35px;
 }
@@ -43,4 +43,12 @@ a:hover {
   max-width: 500px;
   display: block;
   margin: auto;
+}
+:root {
+  --primary-color: #d169a5;
+}
+
+.project-link a {
+  color: #767676;
+  text-decoration: none;
 }
