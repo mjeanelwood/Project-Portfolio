@@ -16,7 +16,7 @@ h2 {
 }
 
 footer {
-  color: #767676;
+  color: var(--secondary-color);
   text-align: center;
 }
 
@@ -31,12 +31,12 @@ a:hover {
 }
 .host-link {
   text-decoration: none;
-  color: #767676;
+  color: var(--secondary-color);
 }
 .construction {
   text-align: center;
   padding: 200px;
-  background-color: #767676;
+  background-color: var(--secondary-color);
 }
 
 .img-fluid {
@@ -46,9 +46,14 @@ a:hover {
 }
 :root {
   --primary-color: #d169a5;
+  --secondary-color: #767676;
 }
 
-.project-link a {
-  color: #767676;
+.project-link {
+  color: var(--secondary-color);
   text-decoration: none;
+}
+
+.project-title h2 {
+  color: var(--primary-color);
 }
